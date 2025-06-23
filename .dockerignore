@@ -1,0 +1,86 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Supabase metadata or config (optional)
+.supabase/
+
+# VS Code & IDE configs
+.vscode/
+.idea/
+
+# Docker artifacts
+Dockerfile*
+docker-compose.yml
+*.log
+
+# Git
+.git/
+.gitignore
+
+# Misc
+*.db
+*.sqlite3
+*.log
+*.pem
+*.key
+
+# OS generated files
+.DS_Store
+Thumbs.db

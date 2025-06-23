@@ -1,0 +1,67 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+*.env
+
+# Pytest
+.cache/
+*.cover
+coverage.xml
+*.log
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Docker
+*.tar
+*.bak
+*.tmp
+docker-compose.override.yml
+
+# Supabase
+.supabase/
+
+# Compiled C extensions
+*.so
+
+# OS files
+Thumbs.db
+
+# Migrations (optional)
+migrations/
+alembic/
+
+# Logs
+*.log
+logs/
+
+# Local databases
+*.db
+*.sqlite3
+
+# VS Code settings
+.vscode/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Node (if using JS tooling inside backend)
+node_modules/
+package-lock.json
