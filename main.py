@@ -18,7 +18,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[  # adjust to your frontend URL(s)
-        "http://localhost:3000",
+        # "http://localhost:3000",
+        "https://next-js-app-ochre-iota.vercel.app/lo",
         "https://your-production-domain.com",
     ],
     allow_credentials=True,            # allow cookies, Authorization headers
